@@ -1,0 +1,2108 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+h1 {
+    color:#ffffff;
+    font-family:"Myriad Pro";
+    font-size:21px;
+    font-weight:normal;
+}
+h2 {
+    color:#ffffff;
+    font-size: 18px;
+}
+h3{
+    color:#999999;
+    font-size: 20px;
+}
+h4 {
+    color:#2C2C2C;
+    font-size: 21px;
+    line-height: 30px;
+}
+p {
+    color:#999999;
+    font-family:arial;
+    font-size:12px;
+    line-height:14px;
+}
+a {
+    color:#DF0B3D;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+dl,
+dl dt,
+dl dd {
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.inner-main {
+    margin:0 auto;
+    overflow:hidden;
+    width:960px;
+}
+.block {
+    overflow: hidden;
+}
+#container {
+    background: url(../img/bg-perfil.png) left top repeat-x;
+    overflow: hidden;
+    width: 100%;
+}
+#container h3#title {
+    line-height: 56px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 960px;
+}
+#container #content .headline {
+    height: 56px;
+    margin: 10px 0;
+    position: relative;
+    width: 100%;
+}
+#container #content .headline h3 {
+    background-color: #F3F3F3;
+    color:#2C2C2C;
+    font-size: 24px;
+    float: left;
+    line-height: 56px;
+    margin: 0;
+    padding-right: 20px;
+    position: absolute;
+    z-index: 99;
+}
+#container #content span.line {
+    background-color: #E0E0E0;
+    display: block;
+    height: 1px;
+    margin: auto 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    position: absolute;
+    width:100%;
+}
+#container #content .headline a{
+    background-color: #F3F3F3;
+    display: block;
+    height: 15px;
+    padding-left: 20px;
+    margin: auto 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    position: absolute;
+}
+#container .inner-main {
+    background: #ffffff url(../img/bg-content.png) left top repeat-y;
+}
+#container .inner-main input[type="Submit"]{
+    float: right;
+}
+#sidebar{
+    float: left;
+    width: 240px;
+}
+#content {
+    background-color: #F3F3F3;
+    float: right;
+    width: 720px;
+}
+.clear {
+    clear: both;
+}
+nav ul li a {
+    color:#D8D8D8;
+    font-size: 15px;
+    line-height: 43px;
+}
+nav ul li a:hover p,
+nav ul li a.active p {
+    color:#DF0B3D;
+    text-decoration: none;
+}
+.tabContent {
+    display: none;
+}
+.row {
+    border-bottom: 1px solid #D6D6D6;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+.leftcol {
+    float: left;
+}
+.rightcol {
+    float: right;
+}
+.leftcol,
+.rightcol {
+    width: 260px;
+}
+.btn-editar {
+    background: url(../img/icn-editar.png) right top no-repeat;
+    color:#CCCCCC;
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 25px;
+}
+.btn-editar:hover,
+.btn-editar.active {
+    background-position: right bottom;
+    color:#E00B3D;
+    text-decoration: none;
+}
+.btn-cambiar-foto {
+    background-color: rgba(0,0,0,0.6);
+
+    border-radius: 3px;
+
+    color:#ffffff;
+    display: none;
+    font-size: 11px;
+    padding: 3px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.btn-cambiar-foto:hover {
+    background-color: rgba(230,19,2,0.6);
+    text-decoration: none;
+}
+a.button {
+    background-color:#2d2d2d;
+    color:#ffffff;
+    display: block;
+    float: right;
+    line-height:28px;
+    padding: 0 15px;
+    text-align:center;
+    width:auto;
+}
+a.button:hover {
+    background-color:#E31919;
+    text-decoration: none;
+}
+input, select, textarea {
+    background-color:#ffffff;
+    border-top:none;
+    border-bottom:none;
+    border-left:1px solid #f6f6f6;
+    border-right:1px solid #f6f6f6;
+    color:#a5a5a5;
+    display:block;
+    font-family:"Myriad Pro";
+    font-size:12px;
+    margin:0 auto 13px;
+    padding:0 10px;
+    line-height:20px;
+    height: 20px;
+    width:200px;
+}
+/* SELECT Style */
+select {
+        margin:0; padding:0 0 0 10px; font-size:12px; outline:none;
+        font-family:inherit;    
+        -moz-box-sizing:border-box; /* Firefox */
+        -webkit-box-sizing:border-box; /* Safari */
+        box-sizing:border-box;}
+
+
+
+ select, div.styled, input, select, textarea {  
+ font-size:12px; border-radius:2px; border: solid 1px #ccc;}
+    
+    div.styled, select {
+        background: white url(../img/formelements-select.png) no-repeat center right; width:220px;
+       } 
+
+    /* For IE and Firefox */
+
+    div.styled { overflow:hidden; padding:0; margin:0 auto; }
+        
+        .ie7 div.styled {border:none;}
+
+    div.styled select { 
+        width:115%; background-color:transparent; background-image:none;
+        -webkit-appearance: none; border:none; box-shadow:none;}
+        
+        .ie7 div.styled select {
+            width:100%; background-color:#fff; border: solid 1px #ccc; 
+            padding:0.3em 0.5em;}   
+
+input[type="submit"] {
+    background-color:#2d2d2d;
+    border:none;
+    border-radius: 0;
+    color:#ffffff;
+    line-height:28px;
+    height: 28px;
+    text-align:center;
+    width:auto;
+}
+input[type="submit"]:hover,
+input[type="file"]:hover {
+    background-color:#E31919;
+}
+.error {
+    color: #E31919;
+}
+input.error::-webkit-input-placeholder {
+    color: #E31919;
+}
+input.error:focus::-webkit-input-placeholder {
+    color: #E31919;
+}
+/* Firefox < 19 */
+input.error:-moz-placeholder {
+    color: #E31919;
+}
+input.error:focus:-moz-placeholder {
+    color: #E31919;
+}
+/* Firefox > 19 */
+input.error::-moz-placeholder {
+    color: #E31919;
+}
+input.error:focus::-moz-placeholder {
+    color: #E31919;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #E31919;
+}
+input:focus:-ms-input-placeholder {
+    color: #E31919;
+}
+footer {
+    background:#000000 url(../img/bg-footer.png) repeat-x;
+    margin-top: 25px;
+    padding: 25px 0;
+}
+
+footer nav ul li {
+    float: left;
+    margin-right: 30px;
+}
+footer nav ul li.last,
+footer nav ul li:last-child {
+    float: right;
+}
+footer nav ul li a {
+    line-height: normal;
+}
+footer nav ul li,
+footer nav ul li a {
+    color:#FFFFFF;
+    font-size: 13px;
+}
+/* ==========================================================================
+   Background images Styles
+   ========================================================================== */
+.bg {
+    background-position: center 88px;
+    background-repeat:no-repeat;}
+
+#codigoregistro.bg { background-image:url(../img/bg-registro1.jpg); }
+
+#passregistro.bg { background-image:url(../img/bg-registro2.jpg); }
+
+#fotoregistro.bg { background-image:url(../img/bg-registro3.jpg); }
+#registro.bg { background-image:url(../img/bg-login.jpg); }
+
+#reestablecerclave.bg { background-image:url(../img/bg-password.jpg); }
+#reestablecerclave.bg.paso1 { background-image:url(../img/bg-password1.jpg); }
+#reestablecerclave.bg.paso2 { background-image:url(../img/bg-password2.jpg); }
+#error404.bg { background-image:url(../img/bg-error.jpg); }
+#perfil.bg, #home.bg { background:url(../img/bg-texture.png);}
+
+/* ==========================================================================
+   Header Section Styles
+   ========================================================================== */
+
+header {
+    background:url(../img/bg-header.png) repeat-x;
+    border-bottom: 8px solid #505050;
+    height:88px;
+    width:100%;
+}
+header #logo {
+    background:url(../img/logo-cruzroja.png) no-repeat;
+    margin:15px 0 0 3px;
+    text-indent:-9999px;
+    height:52px;
+    width:312px;
+}
+
+/* ==========================================================================
+   Login box Styles
+   ========================================================================== */
+#tabs {
+    height:34px;
+    list-style:none;
+    margin:94px auto 0;
+    padding:0;
+    width:620px;
+}
+#tabs li {
+    float:left;
+    font-family:"Myriad Pro";
+    font-size:21px;
+    line-height:34px;
+    margin-left: -12px;
+    
+
+    width:100px; 
+    height:0; 
+    border-bottom:34px solid #2D2D2D;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent; 
+
+}
+#tabs li:first-child {
+    margin-left: 0;
+}
+#tabs li a {
+    display: block;
+    color:#ffffff;
+    text-align:center;
+    text-decoration: none;
+    width:100px;
+}
+#tabs li.active,
+#tabs li:hover {
+    border-bottom:34px solid #E31919;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    position: relative;
+    z-index: 999;}
+#login {
+    background:url(../img/bg-texture.png);
+    clear:both;
+    height:424px;
+    margin:0 auto;
+    position: relative;
+    width:620px;
+}
+#login .tabContent {
+    display: none;
+}
+#login h1 {
+    background-color:#E31919;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    line-height:44px;
+    margin:0 0 50px;
+    padding-left:20px;
+}
+#login p {
+    margin-bottom:35px;
+    padding:0 60px;}
+
+#codigoregistro p {
+    margin-bottom: 70px;
+}
+#login input[type="submit"]{
+    margin-right:200px;
+}
+#login form {
+    margin: 0 auto;
+    min-width: 220px;
+}
+#login form dl {
+    color:#2C2C2C;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    margin:0 auto;
+    width: 300px;
+}
+#login form dl dt,
+#login form dl dd {
+    margin: 0 0 10px;
+    padding: 0;
+}
+#passregistro #login input {
+    width: 280px;
+}
+#passregistro #login input[type="submit"]{
+    margin-right:160px;
+    width: 80px;
+}
+#cambiofoto.overlay {
+    display: none;
+    z-index: 9;
+}
+#fotoregistro #login img,
+#cambiofoto.overlay #login img {
+    border: 1px solid #ffffff;
+    float: left;
+    padding: 4px;
+    margin: 0 25px 0 35px;
+}
+#fotoregistro #login p {
+    margin-bottom: 20px;
+}
+#fotoregistro #login form {
+    float: left;
+}
+
+div.upload {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    width: 130px;
+    height: 33px;
+    line-height: 33px;
+    background-color: #2D2D2D;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+div.upload:hover {
+    background-color:#E31919;}
+
+div.upload input[type="file"] {
+    cursor: pointer;
+    display: block !important;
+    width: 130px !important;
+    height: 33px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fotoregistro #login input,
+.overlay #login input {
+    width: 130px;
+}
+#fotoregistro #login input[type="submit"], 
+.overlay #login input[type="submit"] {
+    margin: 150px 0 0 190px;
+}
+
+#registro #login {
+    margin-top: 130px;
+    height: 380px;
+    width: 500px;
+}
+#registro #login form {
+    margin: 0 auto;
+    width: 280px;
+}
+#registro #login h1 {
+    font-size: 27px;
+    line-height: 30px;
+    padding: 25px 0 25px 80px;
+}
+#registro #login .olvido-clave {
+    float: left;
+    margin-left: 80px;
+    line-height: 28px;
+}
+#registro #login form input {
+    width: 260px;
+}
+#registro #login form input[type="submit"] {
+    margin-right: 0px;
+    width: auto;
+}
+
+#login .tooltip {
+    background-color: #2D2D2D;
+    border:1px solid #404040; 
+    box-shadow: 6px 5px 18px rgba(0, 0, 0, 0.5);
+    margin-top: -45px;
+    position: absolute;
+    right: -82px;
+    width: 179px;
+}
+#login .tooltip .arrow {
+    width: 0;
+    height: 0;
+    border-right: 7px solid #2D2D2D;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    position: absolute;
+    left: -7px;
+    top: 6px;
+}
+#login .tooltip p {
+    color: #ffffff;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 12px;
+    margin: 0;
+    padding: 10px 14px 17px;
+}
+
+#reestablecerclave #login {
+    height: 335px;
+    margin-top: 130px;
+    width: 500px;
+}
+#reestablecerclave #login h1 {
+    font-size: 27px;
+    line-height: 65px;
+    margin-bottom: 70px;
+    padding-left: 80px;
+}
+#reestablecerclave #login p {
+    padding: 0;
+}
+#reestablecerclave #login form {
+    width: 280px;
+}
+#reestablecerclave #login form input {
+    width: 260px;
+}
+#reestablecerclave #login form input[type="submit"] {
+    float: right;
+    margin: 0;
+    padding: 0 15px;
+    width: auto;
+}
+
+#reestablecerclave.paso1 #login h1,
+#reestablecerclave.paso2 #login h1 {
+    margin-bottom: 40px;
+}
+#reestablecerclave.paso1 #login p,
+#reestablecerclave.paso2 #login p {
+    margin:0 auto 20px;
+    width: 350px;
+}
+#reestablecerclave.paso1 #login form {
+    width: 220px;
+}
+#reestablecerclave.paso1 #login form input {
+    width: 200px;
+}
+#reestablecerclave.paso1 #login form input[type="submit"] {
+    width: auto;
+}
+
+#error404 #login {
+    height: 335px;
+    margin-top: 130px;
+    width: 500px;
+}
+#error404 #login h1 {
+    line-height: 66px;
+    padding-left: 80px;
+}
+#error404 #login img {
+    display: block;
+    margin:40px auto;
+}
+
+
+
+/* ==========================================================================
+   Perfil Styles
+   ========================================================================== */
+
+#sidebar #profile-photo {
+    background-color: #ffffff;
+    height: 288px;
+    position: relative;
+    width: 240px;
+}
+#sidebar .profile-name {
+    background-color: #E31919;
+    height: 73px;   
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+#sidebar .profile-name h2,
+#sidebar .profile-name p {
+    color:#ffffff;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+#sidebar .profile-name h2 {
+    margin-top:12px; 
+}
+#sidebar nav ul {
+    margin: 0;
+    padding-left: 25px;
+}
+#sidebar nav ul li a {
+    background-image: url(../img/icn-sidebar.png);
+    background-repeat:no-repeat; 
+    display: block;
+    overflow: hidden;
+}
+#sidebar nav ul li a p {
+    border-bottom: 1px solid #464646;
+    display: block;
+    float: right;
+    line-height: 43px;
+    margin: 0;
+    padding:0;
+    width: 185px;
+}
+#sidebar nav ul li:last-child a p {
+    border-bottom: none;
+}
+
+/* | -- Profile Menu Sidebar -- | */ 
+#sidebar nav ul li a.btn-perfil { background-position: left 13px; }
+#sidebar nav ul li a.btn-perfil:hover,
+#sidebar nav ul li a.btn-perfil.active { background-position: -383px 13px; }
+
+#sidebar nav ul li a.btn-inicio { background-position: left -30px; }
+#sidebar nav ul li a.btn-inicio:hover,
+#sidebar nav ul li a.btn-inicio:active { background-position: -383px -30px; }
+
+#sidebar nav ul li a.btn-noticias { background-position: left -74px; }
+#sidebar nav ul li a.btn-noticias:hover,
+#sidebar nav ul li a.btn-noticias.active { background-position: -383px -74px; }
+
+#sidebar nav ul li a.btn-cruzroja { background-position: left -117px; }
+#sidebar nav ul li a.btn-cruzroja:hover,
+#sidebar nav ul li a.btn-cruzroja.active { background-position: -383px -117px; }
+
+#sidebar nav ul li a.btn-servicios { background-position: left -162px; }
+#sidebar nav ul li a.btn-servicios:hover,
+#sidebar nav ul li a.btn-servicios.active { background-position: -383px -162px; }
+
+#sidebar nav ul li a.btn-clasificados { background-position: left -204px; }
+#sidebar nav ul li a.btn-clasificados:hover,
+#sidebar nav ul li a.btn-clasificados.active { background-position: -383px -204px; }
+
+#sidebar nav ul li a.btn-descargas { background-position: left -249px; }
+#sidebar nav ul li a.btn-descargas:hover,
+#sidebar nav ul li a.btn-descargas.active { background-position: -383px -249px; }
+
+#sidebar nav ul li a.btn-contacto { background-position: left -292px; }
+#sidebar nav ul li a.btn-contacto:hover,
+#sidebar nav ul li a.btn-contacto.active { background-position: -383px -292px; }
+
+#perfil #content #cover {
+    height: 288px;
+    margin-bottom: 34px;
+    overflow: hidden;
+    position: relative;
+
+}
+#perfil #content #cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#perfil #content #cover .profile-name {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+#perfil #content #cover .profile-name h2,
+#perfil #content #cover .profile-name p{
+    margin:0;
+    padding:0;
+}
+#perfil #content #cover .profile-name h2 {
+    font-size: 37px;
+}
+#perfil #content #cover .profile-name p {
+    font-size: 18px;
+}
+#perfil #content .inner-main {
+    min-height: 770px;
+    width: 580px;
+    background:none;
+}
+
+#perfil #content .info h4 {
+    margin-bottom:0; 
+}
+#perfil #content .info .icn {
+    background: url(../img/icn-profile.png) left top no-repeat;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+#perfil #content .info p {
+    margin: 0 0 0 30px;
+}
+#perfil #content #nombre.info .icn { background-position: left 2px}
+#perfil #content #cargo.info .icn { background-position: left -26px}
+#perfil #content #direccion.info .icn { background-position: left -58px}
+#perfil #content #tel.info .icn { background-position: left -90px}
+#perfil #content #estudios.info .icn { background-position: left -125px}
+#perfil #content #hijos.info .icn { background-position: left -158px}
+#perfil #content #estadocivil.info .icn { background-position: left -188px}
+#perfil #content #bday.info .icn { background-position: left -218px}
+#perfil #content #email.info .icn { background: url(../img/icn-email.jpg) 7px 4px no-repeat;}
+
+
+/* ==========================================================================
+   Home Styles
+   ========================================================================== */
+#home #wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+#home #container #wrapper .inner-main {
+    background: #ffffff url(../img/bg-content.png) left top repeat-y;
+    float: left;
+    width: 710px;
+}
+#home #content {
+    float: left;
+    padding: 0 10px 10px;
+    width: 450px;
+}
+
+#home #container #wrapper .inner-main #content .inner-main {
+    background:none transparent;
+    padding-top: 18px;
+    width: 450px;
+}
+#home #content .row {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+#home #content .row h3 {
+    margin:0 0 15px;
+}
+#home #content .row .thumb .descripcion {
+    background-color: rgba(0,0,0,0.5);
+    color:#ffffff;
+    line-height: 45px;
+    margin: -45px 0 15px 0;
+    padding: 0 15px; 
+    position: relative;
+    width: 418px;
+    z-index: 999;
+
+}
+#home #content .row p {
+    margin: 0;
+}
+
+#home #rightsection {
+    float: right;
+    width: 240px;
+}
+#home #rightsection h4 {
+    color:#ffffff;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0;
+}
+#home #rightsection #calendar {
+    background-color: #E31919;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    overflow: hidden;
+    height: 238px;
+
+}
+#home #rightsection #calendar h4 {
+    background: url(../img/icn-calendario.png) 10px center no-repeat;
+    margin-bottom: 15px;
+    padding-left: 36px;
+}
+#rightsection h5 {
+    background-color: #959595;
+    color:#ffffff;
+    font-size: 21px;
+    line-height: 51px;
+    margin:0 0 10px;
+    padding:0 0 0 18px;
+
+}
+#rightsection #calendar ul,
+#rightsection #calendar ul li {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+#rightsection #calendar ul li {
+    border-bottom: 1px solid #AE0832;
+    color:#ffffff;
+    font-size: 15px;
+    line-height: 55px;
+}
+ #rightsection #calendar li span {
+    background: url(../img/bg-calendario-dia.png) center 11px no-repeat;
+    float: left;
+    font-size: 12px;
+    line-height: 55px;
+    text-align: center;
+    width: 47px;
+}
+#rightsection #calendar ul li:last-child {border-bottom: none;}
+#rightsection #calendar a.btn-seemore {
+    background: url(../img/icn-arrow.jpg) right center no-repeat;
+    color:#ffffff;
+    font-size: 15px;
+    float: right;
+    line-height: 18px;
+    margin-right: 10px;
+    margin-top: 17px;
+    padding-right: 28px;
+}
+#home #rightsection #otros {
+    border-top:55px solid #959595;
+}
+#rightsection .widget a:hover {
+    text-decoration: none;
+}
+#rightsection .widget a:hover h5 {
+    background-color: #E31919;
+}
+/* ==========================================================================
+   Clasificados
+   ========================================================================== */
+#thumbs-clasificados {
+    overflow: hidden;
+}
+#thumbs-clasificados .clasificado {
+    border-bottom: 1px solid #E0E0E0;
+    float: left;
+    margin-bottom: 26px;
+    padding-bottom: 26px;
+    padding-right: 11px;
+    width: 186px;
+}
+#thumbs-clasificados .clasificado:nth-child(3n+3) {
+    padding-right: 0px;
+}
+#thumbs-clasificados .clasificado img {
+    border:1px solid #CCCCCC;
+    height: 169px;
+    padding: 7px;
+    width: 169px;
+}
+#thumbs-clasificados .clasificado h5,
+#thumbs-clasificados .clasificado h5 span {
+    color: #666666;
+    font-size: 16px;
+}
+#thumbs-clasificados .clasificado h5 span {
+    float: right;
+}
+#thumbs-clasificados .clasificado p {
+    color: #999999;
+    font-size: 13px;
+}
+#subirclasificado {
+    background-color: #FBFBFB;
+    border:1px solid #CCCCCC;
+    margin-bottom: 75px;
+    overflow: hidden;
+    padding: 20px;
+}
+#subirclasificado h4 {
+    margin: 0 0 20px 0 ;
+}
+
+#content.subirclas .headline span.line {
+    width: 200px;
+}
+
+#content.subirclas dl input {
+    border:1px solid #E4E4E4;
+    width: 240px;
+}
+#content.subirclas dl textarea {
+    border:1px solid #E4E4E4;
+    height: 248px;
+    width: 260px;
+}
+#content.subirclas .leftcol,
+#content.subirclas .rightcol {
+    margin-top: 30px;
+}
+#content.subirclas .leftcol h4 {
+    margin:0 0 20px 0;
+}
+#content.subirclas .rightcol {
+    width: 240px;
+}
+#content.subirclas .rightcol #featured-photo {
+    border:1px solid #E4E4E4;
+    margin: 5px 0 20px 0;
+    padding: 8px;
+    width: 222px;
+}
+#content.subirclas .rightcol .upload {
+    margin-bottom: 20px;
+}
+#content.subirclas #thumbs-clasificados .thumb {
+    border:1px solid #E4E4E4;
+    height: 50px;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    padding: 3px;
+    width: 50px;
+}
+#content.subirclas #thumbs-clasificados img {
+    height: 50px;
+    width: 50px;
+}
+#content.subirclas #thumbs-clasificados:nth-child(4n+4) {
+    padding-right: 0;
+}
+
+#content #banner {
+    margin-bottom: 20px;
+}
+
+#content.clasificadointerno .leftcol {
+    width: 320px
+}
+#content.clasificadointerno .rightcol {
+    width: 240px
+}
+#content.clasificadointerno .leftcol #featured-photo {
+    border:1px solid #E4E4E4;
+    margin: 5px 0 20px 0;
+    padding: 14px;
+    width: 295px;
+}
+#content.clasificadointerno .leftcol #thumbs-clasificados .thumb {
+    border:1px solid #E4E4E4;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    padding: 2px;
+}
+#content.clasificadointerno .leftcol #thumbs-clasificados .thumb:nth-child(5n+5) {
+    margin-right: 0;
+}
+#content.clasificadointerno .leftcol #thumbs-clasificados .thumb,
+#content.clasificadointerno .leftcol #thumbs-clasificados .thumb img {
+    height: 53px;
+    width: 53px;
+}
+#content.clasificadointerno #datosclasificado,
+#content.clasificadointerno #datosclasificado li {
+    list-style: none;
+    margin:0;
+    padding:0; 
+}
+#content.clasificadointerno #datosclasificado li {
+    clear: both;
+}
+#content.clasificadointerno #datosclasificado li p {
+    border-bottom:2px solid #E4E4E4;
+    line-height: 25px;
+}
+
+
+#content.noticiasyeventos .headline span.line {
+    width: 350px;
+}
+#content.noticiasyeventos h4 {
+    color:#A5A5A5;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#content.noticiasyeventos p {
+    text-align: justify;
+}
+#content.noticiasyeventos .foto {
+    float: right;
+    margin:0 0 20px 20px;
+}
+/* ==========================================================================
+   15 Calendario Page
+   ========================================================================== */
+#perfil.noticias-eventos #content .inner-main {
+    padding: 0 10px;
+    width: 700px;
+}
+.noticias-eventos #thumbs-eventos .evento {
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    width: 220px;
+}
+.noticias-eventos #thumbs-eventos .evento:last-child {
+    margin-right: 0;
+}
+.noticias-eventos #thumbs-eventos .evento .destacado {
+    background: url(../img/icn-evento-destacado.png) no-repeat;
+    position: absolute;
+    height: 25px;
+    left: 10px;
+    text-indent: -9999px;
+    top: 0;
+    width: 21px;
+    z-index: 99;
+}
+.noticias-eventos #thumbs-eventos .evento img {
+    margin-bottom: 5px;
+}
+.noticias-eventos #thumbs-eventos .evento h5 {
+    border-bottom: 1px solid #989898;
+    font-size: 21px;
+    line-height: 43px;
+    margin:0;
+}
+.noticias-eventos #thumbs-eventos .evento p {
+    text-align: justify;
+}
+.noticias-eventos #thumbs-eventos .evento a.btn-seemore {
+    clear: both;
+    float: right;
+}
+/* ==========================================================================
+   16 Calendario internas Page
+   ========================================================================== */
+#meseventos {
+    overflow: hidden;
+}
+#meseventos .fecha {
+    float: left;
+    width: 120px;
+}
+#meseventos .fecha span {
+    display: block;
+    text-align: center;
+}
+#meseventos .fecha .dia {
+    color:#DF0B3D;
+    font-size: 106px;
+    line-height: 80px;
+}
+#meseventos .fecha .mes {
+    color:#2C2C2C;
+    font-size: 24px;
+}
+#meseventos .lista-eventos .evento {
+    float: right;
+    width: 560px;
+}
+#meseventos .lista-eventos .evento img {
+    float: left;
+    margin-right:20px; 
+}
+#meseventos .lista-eventos .evento h4 {
+    color: #2C2C2C;
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0;
+}
+#meseventos .lista-eventos .evento p {
+    color: #999999;
+    font-size: 12px;
+}
+#meseventos .lista-eventos hr {
+    border-top: none;
+    border-bottom: 1px solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+    clear: both;
+    float: right;
+    margin:20px 42px 20px 0;
+    width: 497px;
+}
+/* ==========================================================================
+   17 Calendario internas 2 Page
+   ========================================================================== */
+.eventodetalle {
+    overflow: hidden;
+    position: relative;
+}
+.eventodetalle .fecha {
+    background-color: rgba(0,0,0,0.7);
+    height: 145px;
+    padding: 0 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.eventodetalle .fecha span {
+    color: #ffffff;
+    display: block;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.eventodetalle .fecha .dia {
+    font-size: 98px;
+    line-height: 80px;
+    margin-top: 20px;
+}
+.eventodetalle .fecha .mes {
+    font-size: 22px;
+}
+.eventodetalle img {
+    margin-bottom: 10px;
+}
+.eventodetalle h4 {
+    margin:0;
+}
+.eventodetalle h5 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #A5A5A5;
+    font-size: 22px;
+    line-height: 40px;
+    margin:0 0 10px 0;
+}
+.eventodetalle .infoevento {
+    background-color: #ffffff;
+    float: right;
+    margin-left: 20px;
+    padding: 30px 20px;
+    overflow: hidden;
+    width: 180px;
+}
+.eventodetalle .infoevento dt,
+.eventodetalle .infoevento dd {
+    border-bottom: 1px solid #E1E1E1;
+    float: left;
+    line-height: 50px;
+}
+.eventodetalle .infoevento dd.last,
+.eventodetalle .infoevento dd:last-child,
+.eventodetalle .infoevento dt.last,
+.eventodetalle .infoevento dt:last-child {
+    border-bottom: none;
+}
+.eventodetalle .infoevento dd {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 15px;
+    width: 118px;
+    padding: 10px 0;
+}
+.eventodetalle .infoevento dt {
+    clear: both;
+    color: #DF0B3D;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 35px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+/* ==========================================================================
+   18 Noticias y Eventos
+   ========================================================================== */
+#perfil #content.noticiasyeventos .inner-main {
+    padding: 0 10px;
+    width: 700px;
+}
+#banner {
+    position: relative;
+    overflow: auto;
+}
+#banner ul,
+#banner ul li,
+#banner ol,
+#banner ol li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#banner ul li {
+    float: left;
+    position: relative;
+}
+#banner .dots {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#banner .dots li {
+    background: #E00B3D;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0 2px;
+    text-indent: -999em;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+#banner .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+#banner .slide h4 {
+    background-color: rgba(0,0,0,0.6);
+    border-bottom: none;
+    bottom: 0;
+    color:#fff;
+    display: block;
+    font-size: 26px;
+    float: none;
+    line-height: 73px;
+    margin:0;
+    position: absolute;
+    padding:0 20px;
+    width: 100%;
+}
+#perfil #content.noticiasyeventos #banner .slide p {
+    margin: 0;
+}
+#perfil #content.noticiasyeventos #banner .slide .headline {
+    height: 15px;
+}
+#perfil #content.noticiasyeventos.interna h4 {
+    border-bottom: 1px solid #E0E0E0;
+}
+#perfil #content.noticiasyeventos #noticias {
+    float: left;
+}
+#perfil #content.noticiasyeventos #noticias .noticia {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    width: 460px;
+}
+#perfil #content.noticiasyeventos #noticias .noticia:last-child,
+#perfil #content.noticiasyeventos #noticias .noticia.last {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+#perfil #content.noticiasyeventos #noticias .noticia .foto {
+    float: left;
+    height: 141px;
+    margin:0 15px 0 0;
+    width: 160px;
+}
+#perfil #content.noticiasyeventos #noticias .noticia h6 {
+    color:#242424;
+    font-size: 25px;
+    margin: 0;
+}
+#perfil #content.noticiasyeventos #noticias .noticia .date {
+    color:#DF0B3D;
+    font-size: 12px;
+    margin: 0;
+}
+#perfil #content.noticiasyeventos #rightsection {
+    float:right;
+    width: 220px;
+}
+#perfil #content.noticiasyeventos #rightsection #calendar {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#perfil #content.noticiasyeventos #rightsection #calendar h5 {
+    background: #E31919 url(../img/icn-tcalendario-noticias.png) 43px center no-repeat;
+    line-height: 49px;
+    padding: 0 0 0 73px;
+}
+#perfil #content.noticiasyeventos #rightsection #calendar ul li {
+    border-color: #E6E6E6;
+    color:#A5A5A5;
+    font-size: 14px;
+    margin: 0 12px;
+}
+#perfil #content.noticiasyeventos #rightsection #calendar ul li span.fecha{
+    background: url(../img/icn-calendario-noticias.png) 0 12px no-repeat;
+    color:#E00B3D;
+    line-height: 55px;
+    margin-right: 10px;
+    width: 24px;
+}
+#perfil #content.noticiasyeventos #rightsection #calendar a.btn-seemore {
+    background-image: url(../img/icn-btn-ver-mas-noticias.png);
+    color:#DF0B3D;
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-right: 22px;
+}
+/* ==========================================================================
+   20 Cruz Roja Colombiana
+   ========================================================================== */
+#perfil #content.cruzroja .inner-main {
+    padding: 0 10px;
+    width: 700px;
+}
+#perfil #content.cruzroja img.foto {
+    float: right;
+    margin-left: 20px;
+}
+/* ==========================================================================
+   25 Servicios Corporativos
+   ========================================================================== */
+#content.servicioscorporativos #secTitle.headline h3.title {
+    background: #f3f3f3 url(../img/icn-servicios-corporativos.jpg) no-repeat;
+    padding-left: 37px;
+}
+#content.servicioscorporativos #secTitle.headline h3.title#tincapacidades { background-position: 0 0; } 
+#content.servicioscorporativos #secTitle.headline h3.title#tcertificaciones { background-position: 0 -56px; } 
+#content.servicioscorporativos #secTitle.headline h3.title#tvacaciones { background-position: 0 -112px; } 
+#content.servicioscorporativos #secTitle.headline h3.title#tpensiones { background-position: 0 -158px; } 
+#content.servicioscorporativos #secTitle.headline h3.title#treportesnominas { background-position: 0 -224px; } 
+
+#menuservicios {
+    height: 106px;
+    margin-bottom: 35px;
+}
+#menuservicios ul {
+    height: 106px;
+    padding-left:0;
+}
+#menuservicios li {
+    float: left;
+    margin-right: 8px;
+}
+#menuservicios li:last-child {
+    margin-right: 0;
+}
+#menuservicios li a {
+    background: #FAFAFA url(../img/icn-btns-servicios.png) 0px 20px  no-repeat;
+    border:1px solid #FBFBFB;
+    border-radius: 5px;
+    color:#9E9E9E;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 11px;
+    padding: 70px 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 87px;
+
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(228,228,228,0.8);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(228,228,228,0.8);
+    box-shadow: 0px 2px 2px 0px rgba(228,228,228,0.8);
+}
+#menuservicios li a:hover,
+#menuservicios li a.active {
+    background: #E00B3D url(../img/icn-btns-servicios.png) 0px -85px no-repeat;
+    border:1px solid #F9255C;
+    color:#ffffff;
+    text-decoration: none;
+
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(203,9,56,0.8);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(203,9,56,0.8);
+    box-shadow: 0px 2px 2px 0px rgba(203,9,56,0.8);
+}
+#menuservicios li#btn-certificaciones a    { background-position: -110px 20px; }
+#menuservicios li#btn-vacaciones a         { background-position: -235px 20px; }
+#menuservicios li#btn-pensiones a          { background-position: -354px 20px; }
+#menuservicios li#btn-reportes a           { background-position: -470px 20px; }
+#menuservicios li#btn-formatosoficiales a           { background-position: -587px 20px; }
+#menuservicios li#btn-publicaciones a           { background-position: -722px 20px; }
+
+#menuservicios li#btn-certificaciones a:hover,
+#menuservicios li#btn-certificaciones a.active    { background-position: -110px -85px ; }
+#menuservicios li#btn-vacaciones a:hover,
+#menuservicios li#btn-vacaciones a.active         { background-position: -235px -85px ; }
+#menuservicios li#btn-pensiones a:hover,
+#menuservicios li#btn-pensiones a.active          { background-position: -354px -85px ; }
+#menuservicios li#btn-reportes a:hover,
+#menuservicios li#btn-reportes a.active           { background-position: -470px -85px ; }
+#menuservicios li#btn-formatosoficiales a:hover,
+#menuservicios li#btn-formatosoficiales a.active           { background-position: -587px -85px; }
+#menuservicios li#btn-publicaciones a:hover,
+#menuservicios li#btn-publicaciones a.active           { background-position: -722px -85px; }
+
+#content.servicioscorporativos .inner-main {
+    overflow: visible;
+}
+#content.servicioscorporativos input[type="submit"] {
+    float: none;
+    margin-top:20px;
+}
+#content .boxlist {
+    background-color: #FBFBFB;
+    border:1px solid #DADADA;
+    margin:35px auto;
+    padding: 0 10px;
+    width: 558px;
+
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+    box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+}
+#content .boxlist .block:nth-child(2n+1) {
+    background-color: #FFFFFF;
+}
+#content .boxlist .col {
+    color:#666666;
+    float: left;
+    font-size: 14px;
+    padding:20px 10px;
+}
+#content .boxlist .title.col { 
+    line-height: 14px;
+    padding-right:80px; 
+    width: 235px; }
+#content .boxlist .date.col { 
+    color:#999999; 
+    font-size: 12px;
+    padding-right:40px; 
+    width: 90px; }
+#content .boxlist .download.col { 
+    float: right;
+    width: 70px; }
+#content .boxlist .header {
+    border-bottom: 1px solid #c7c7c7;
+    overflow: hidden;
+}
+#content .boxlist .header h3 {
+    color:#2C2C2C;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+#content .boxlist .header .col { 
+    color:#666666;
+    padding-bottom: 10px;}
+#content .boxlist .download.col a {
+    background:url(../img/icn-download.png) no-repeat;
+    display: block;
+    height: 28px;
+    margin: 0 auto 0;
+    width: 35px;
+    text-indent: -9999px;
+}
+#content #td-vacaciones.boxlist {
+    padding:5px 20px 0;
+    width: 538px;
+}
+#content #td-vacaciones.boxlist .block {
+    background-color: #FBFBFB;
+}
+#content #td-vacaciones.boxlist .block .col {
+    float: left;
+    width: 249px;
+}
+#content .boxlist #row-pagovacaciones.block .col {
+    padding: 0 10px 40px;
+}
+#content .boxlist.td-style2 .block h6 {
+    background-color: #ffffff;
+    color:#E00B3D;
+    font-family: "arial";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 20px 0;
+    overflow: hidden;
+    padding-left: 10px;
+
+}
+#content .boxlist.td-style2 .block h6 div,
+#content .boxlist.td-style2 .block h6 span {
+    float: left;
+}
+#content .boxlist.td-style2 .block h6 div.icn {
+    display: block;
+    height: 26px;
+    margin-left: 10px;
+    width: 28px;
+    text-indent: -9999px;
+}
+#content #td-vacaciones.boxlist .block h6 div.icn {
+    background: url(../img/icn-td-vacaciones.jpg) no-repeat;
+}
+#content .boxlist.td-style2 .block h4 {
+    color: #2C2C2C;
+    font-size: 18px;
+    line-height: 22px;
+    margin:0 0 10px;
+}
+#content #td-vacaciones.boxlist .block h4 div.icn {
+    background: url(../img/icn-td-vacaciones.jpg) no-repeat;
+    float: left;
+    height: 22px;
+    width: 34px;
+}
+#content .boxlist.td-style2 .block h5 {
+    color:#525252;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+    margin:0 10px 0 0;
+}
+#content .boxlist.td-style2 .block p {
+    line-height: 26px;
+    margin:0;
+}
+#content #td-vacaciones.boxlist #row-tiempo h6 .icn {
+    background-position: left -88px;
+}
+#content #td-vacaciones.boxlist #row-periodovacaciones h6 .icn {
+    background-position: left -114px;
+}
+#content #td-vacaciones.boxlist #row-pagovacaciones h6 .icn {
+    background-position: bottom left;
+}
+#content #td-vacaciones.boxlist #row-tiempo h4 .icn {
+    background-position: left top;
+}
+#content #td-vacaciones.boxlist #row-periodovacaciones h4 .icn {
+    background-position: left -22px;
+}
+#content #td-vacaciones.boxlist #row-pagovacaciones h4 .icn {
+    background-position: left -44px;
+    margin-bottom: 10px;
+}
+#content #td-vacaciones.boxlist #row-pagovacaciones h4.tprima .icn {
+    background-position: left -68px;
+}
+
+/* ==========================================================================
+   28 Servicios Corporativos - Pensiones
+   ========================================================================== */
+#content #td-pensiones.boxlist {
+    padding-top: 10px;
+}
+#content #td-pensiones.boxlist .block {
+    background-color: #fbfbfb;
+}
+#content #td-pensiones.boxlist .block h6 {
+    margin: 0;
+}
+#content #td-pensiones.boxlist .col h6 div.icn {
+    float: left;
+    height: 30px;
+    width: 42px;
+
+}
+#content #td-pensiones.boxlist .col {
+    border-right: 1px solid #D9D9D9;
+    margin: 15px 0;
+    padding: 10px 40px 10px 10px;
+    width: 228px;
+}
+#content #td-pensiones.boxlist .col.last,
+#content #td-pensiones.boxlist .col:last-child {
+    border-right: none;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+#content #td-pensiones.boxlist .col .col {
+    border-right: none;
+    padding: 0;
+    margin: 5px 0 0;
+    width: 50%;
+}
+#content #td-pensiones.boxlist .col .col h5 {
+    border-bottom: 1px solid #D9D9D9;
+    float: none;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-bottom: 1px;
+}
+#content #td-pensiones.boxlist .col h4 {
+    line-height: 30px;
+    margin-bottom: 0;
+}
+#content #td-pensiones.boxlist .col h4 div.icn {
+    float: left;
+    height: 30px;
+    width: 42px;
+}
+#content #td-pensiones.boxlist .block h6 div.icn,
+#content #td-pensiones.boxlist .col h4 div.icn {
+    background: url(../img/icn-td-pensiones.jpg) no-repeat;
+}
+#content #td-pensiones.boxlist .col p {
+    line-height: 14px;
+}
+#content #td-pensiones.boxlist .col p {
+    padding-left: 42px;
+}
+#content #td-pensiones.boxlist .col:last-child p {
+    padding-left: 0px;
+}
+#content #td-pensiones.boxlist #row-pensiones h6 div.icn { background-position: 0px -150px; }
+#content #td-pensiones.boxlist #row-eps h6 div.icn { background-position: 0px -175px; }
+#content #td-pensiones.boxlist #row-arl h6 div.icn { background-position: 0px -200px; }
+#content #td-pensiones.boxlist #row-cajacompensacion h6 div.icn { background-position: 0px -225px; }
+#content #td-pensiones.boxlist #row-censantias h6 div.icn { background-position: 0px -250px; }
+
+#content #td-pensiones.boxlist #row-pensiones h4 div.icn { background-position: 0px 0px; }
+#content #td-pensiones.boxlist #row-eps h4 div.icn { background-position: 0px -30px; }
+#content #td-pensiones.boxlist #row-arl h4 div.icn { background-position: 0px -60px; }
+#content #td-pensiones.boxlist #row-cajacompensacion h4 div.icn { background-position: 0px -90px; }
+#content #td-pensiones.boxlist #row-censantias h4 div.icn { background-position: 0px -120px; }
+
+/* ==========================================================================
+   29 Servicios Corporativos - Reportes
+   ========================================================================== */
+#content .boxlist.td-style3 .title.col { 
+    padding-right: 20px;
+    width: 135px; }
+#content .boxlist.td-style3 .notification.col { 
+    padding-right: 20px;
+    width: 170px; }
+#content .boxlist.td-style3 .date.col { 
+    padding-right: 0;
+    width: 90px; }
+#content .boxlist.td-style3 .download.col { 
+    padding-right: 0;
+    width: 70px; }
+#content .boxlist.td-style3 .block .title.col {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+#content .boxlist.td-style3 .block .notification.col{
+    color:#999999;
+    font-size: 12px;
+}
+
+/* ==========================================================================
+   30 Descargas y Formatos
+   ========================================================================== */
+#menuservicios li#btn-formatosoficiales {
+    margin-left: 200px;
+}
+
+/* ==========================================================================
+   32 Contacto
+   ========================================================================== */
+#content.contacto #contacts {
+    width: 340px;
+}
+#content.contacto #arealaboral {
+    margin: 0 0 25px;
+}
+#content.contacto #contacts .contact {
+    border-bottom: 1px solid #E0E0E0;
+    clear: both;
+    min-height: 144px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+#content.contacto #contacts .contact:last-child {
+    border-bottom: none;
+}
+#content.contacto #contacts .contact .foto {
+    background-color: gray;
+    border:1px solid #DADADA;
+    float: left;
+    height: 142px;
+    margin-right: 15px;
+    width: 117px;
+}
+#content.contacto #contacts .contact ul {
+    float: left;
+}
+#content.contacto #contacts .contact ul,
+#content.contacto #contacts .contact ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#content.contacto #contacts .contact ul li {
+    background:url(../img/icn-contacto.png) 0 5px no-repeat;
+    padding-left: 28px;
+}
+#content.contacto #contacts .contact ul li.cargo {background-position: 0 -24px;}
+#content.contacto #contacts .contact ul li.email {background-position: 0 -52px;}
+
+#content.contacto #contacts .contact ul li,
+#content.contacto #contacts .contact ul li p {
+    color:#999999;
+    font-family: "arial";
+    font-size: 12px;
+    line-height: 25px;
+}
+#content.contacto #contacts .contact ul li p {
+    border-bottom: 1px solid #c1c1c1;
+    margin: 0;
+}
+#content.contacto #contacts .contact ul li .button {
+    float: left;
+    margin-top: 14px;
+}
+
+/* ==========================================================================
+   33 Contacto 2
+   ========================================================================== */
+.formbox {
+    background-color: #FBFBFB;
+    border:1px solid #DADADA;
+    clear: both;
+    margin-top:15px;
+    padding:10px;
+    position: relative;
+
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+    box-shadow: 4px 4px 0px 0px rgba(233,233,233,0.8);
+}
+.formbox a.button.close {
+    line-height: 15px;
+    margin: -26px -11px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+.formbox input[type="text"],
+.formbox textarea {
+    border:1px solid #E4E4E4;
+    border-radius: 3px;
+    width: 298px;
+}
+.fomrbox .tipomensaje {
+    overflow: hidden;
+}
+.formbox .tipomensaje p,
+.formbox .tipomensaje label p,
+.formbox .tipomensaje label input {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.formbox .tipomensaje label input {
+    margin-right: 10px;
+}
+.formbox label p {
+    line-height: 14px;
+    margin: 0;
+}
+.formbox input[type="radio"] {
+    border:2px solid #E00B3D;
+    height: auto;
+    line-height: auto;
+    width: auto;
+}
+.formbox .footnote {
+    float: right;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+   34 Resultado Busqueda
+   ========================================================================== */
+
+#content.busqueda .item h4.title {
+    background: url(../img/icn-tbuscado.png) left center no-repeat;
+    color: #2C2C2C;
+    font-size: 19px;
+    margin: 0 0 20px;
+    padding-left: 20px;
+}
+#content.busqueda .item {
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+}
+#content.busqueda .item:last-child {
+    border-bottom: none;
+}
+#content.busqueda .item p {
+    color: #999999;
+    font-size: 12px;
+    margin:0 0 15px 10px;
+}
+#content.busqueda .item p.publishedDate {
+    color:#DF0B3D;
+}
+
+/* ==========================================================================
+   Download button
+   ========================================================================== */
+
+#FileUpload {
+    margin: 30px auto 0;
+    position:relative;
+    width: 300px;
+}
+
+#BrowserVisible {
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    background: #2D2D2D;
+    color:#fff;
+    width:298px;
+    line-height:30px;
+}
+#FileUpload:hover #BrowserVisible {
+    background-color:#E31919;
+}
+#BrowserVisible input {
+    color:#999999;
+}
+#FileField {
+    border-right: 10px solid #f3f3f3;
+    float: left;
+    font-size: 13px;
+    height: 30px;
+    background: #ffffff;
+    color: #fff;
+    margin: 0 5px 0 0;
+    padding: 0 10px;
+    width: 204px;
+}
+
+#BrowserHidden {
+    position:relative;
+    height:30px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    -moz-opacity:0;
+    filter:alpha(opacity: 0);
+    opacity: 0;
+    z-index: 2;
+    width: 298px;
+}
+/* ==========================================================================
+   Overlay
+   ========================================================================== */
+.overlay {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    bottom:0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top:0;
+    width: 100%
+}
+.overlay #login {
+    height: 290px;
+    width: 620px;
+    padding-top: 30px;
+    margin:auto;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+}
+.overlay #login input[type="submit"]{
+    float: right;
+    margin: 76px 70px 0 0;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
